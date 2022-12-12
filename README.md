@@ -1,3 +1,11 @@
+# To-do-list
+
+Atividade desenvolvida para Ilegra. Tinha por objetivo criar um to-do-list em React, utilizando boa utilização de Hooks e Components.
+
+<img src="src/img/todolist.png">
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
