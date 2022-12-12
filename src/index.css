@@ -5,9 +5,96 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #eee;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  margin: auto;
+  width: 100%;
+  color: #eee;
+  max-width: 70%;
+  
+}
+h1{
+  text-align: center;
+  color:#3b8ae4;
+  
+}
+.list {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2em;
+  margin-top: 20px;
+  width: 50%;
+  min-width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  background: #3b8ae4;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+li:hover {
+  opacity: 0.8;
+  text-decoration: line-through;
+}
+p{
+  color: #3b8ae4;
+  text-align: center;
+}
+input {
+  height: 55px;
+  width: 55%;
+  outline: none;
+  border-radius: 1%;
+  padding: 0 60px 0 20px;
+  border: 1px solid #3b8ae4;
+  font-size: 18px;
+  font-weight: 500;
+  color: #111111;
+  display: inline;
+  min-width: 30%;
+}
+button {
+  position: relative;
+  float: right;
+  width: 30%;
+  height: 55px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  background-color: #3b8ae4;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+}
+button:hover {
+  opacity: 0.8;
+}
+@media screen and (max-width: 680px) {
+  .App {
+    flex-direction: column;
+  }
+  input {
+    width: 75%;
+    
+  }
+  button {
+    margin-top: 2%;
+    justify-content: center;
+    width: 60%;
+  }
+  p {
+    margin-top: 2%;
+  }
 }
